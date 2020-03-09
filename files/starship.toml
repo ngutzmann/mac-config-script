@@ -1,0 +1,38 @@
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
+[git_branch]
+symbol = "🌱  "
+
+[git_status]
+conflicted = "🏳  "
+ahead = "🏎  💨 "
+behind = "😰 "
+diverged = "😵 "
+untracked = "🤷 "
+stashed = "📦 "
+modified = "📝 "
+staged = "➕ "
+renamed = "👅 "
+deleted = "🗑  "
+
+[python]
+style="bold green"
+symbol = "🐍 "
+
+[memory_usage]
+disabled=true
+show_percentage = true
+show_swap = false
+threshold = -1
+symbol = "🐏  "
+separator = "/"
+style = "bold dimmed green"
+
+[aws]
+style="bold blue"
+
+[cmd_duration]
+style="blue"
