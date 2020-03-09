@@ -24,7 +24,12 @@ brew install starship\
 brew tap caskroom/cask
 
 # Install Casks Apps
-brew cask install google-chrome visual-studio-code slack spotify microsoft-teams
+brew cask install google-chrome\
+	visual-studio-code\
+	slack\
+	spotify\
+	microsoft-teams\
+	muzzle
 
 # Install OhMyZsh plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
