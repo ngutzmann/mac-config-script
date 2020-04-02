@@ -19,7 +19,8 @@ brew install starship\
     wget\
     python3\
     awscli\
-    coreutils
+    coreutils\
+    unix2dos
 
 # Add Casks to Brew
 brew tap caskroom/cask
@@ -30,7 +31,9 @@ brew cask install google-chrome\
     slack\
     spotify\
     microsoft-teams\
-    muzzle
+    muzzle\
+    rocket\
+    vanilla
 
 # Install OhMyZsh plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
